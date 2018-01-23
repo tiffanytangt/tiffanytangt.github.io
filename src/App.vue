@@ -1,11 +1,11 @@
 <template>
     <div>
         <top-nav></top-nav>
-        <section class="section">
             <div class="container">
-                <p class="has-text-centered is-italic">I'm workin' on it</p>
+                <div  class="section">
+                    <router-view></router-view>
+                </div>
             </div>
-        </section>
         <foot></foot>
     </div>
 </template>

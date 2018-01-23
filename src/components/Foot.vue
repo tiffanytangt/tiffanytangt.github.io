@@ -15,9 +15,9 @@
                            href="https://www.linkedin.com/in/tiffanytangt/">
                             <span class="icon"><i class=" fa fa-linkedin fa-lg"></i></span>
                         </a>
-                        <a class="button" href="#" disabled>
+                        <router-link class="button" to="/contact">
                             <span class="icon"><i class=" fa fa-envelope fa-lg"></i></span>
-                        </a>
+                        </router-link>
                     </p>
                 </div>
             </div>

@@ -1,7 +1,9 @@
 <template>
     <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="is-size-3 button is-primary has-text-weight-light" href="/">tiffanytang $ ></a>
+            <router-link to="/">
+                <span class="is-size-3 button is-primary has-text-weight-light">tiffanytang $ ></span>
+            </router-link>
             <!-- navbar items, navbar burger... -->
         </div>
 
@@ -23,9 +25,9 @@
                                href="https://www.linkedin.com/in/tiffanytangt/">
                                 <span class="icon"><i class=" fa fa-linkedin fa-lg"></i></span>
                             </a>
-                            <a class="button" href="#" disabled>
+                            <router-link class="button" to="/contact">
                                 <span class="icon"><i class=" fa fa-envelope fa-lg"></i></span>
-                            </a>
+                            </router-link>
                         </p>
                     </div>
                 </div>
@@ -35,7 +37,6 @@
 </template>
 
 <script>
-
     export default {
         components: {
         },
