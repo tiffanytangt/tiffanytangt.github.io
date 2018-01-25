@@ -9,7 +9,9 @@
 
         <div class="navbar-menu">
             <div class="navbar-start">
-                <!--<a class="navbar-item">Home</a>-->
+                <!--<router-link to="/about" class="navbar-item">About</router-link>-->
+                <router-link to="/projects" class="navbar-item">Projects</router-link>
+                <router-link to="/tech" class="navbar-item">Experience</router-link>
             </div>
             <div class="navbar-end">
                 <div class="navbar-item">

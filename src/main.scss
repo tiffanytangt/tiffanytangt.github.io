@@ -2,7 +2,7 @@
 @import "~bulma/sass/utilities/initial-variables";
 @import "~bulma/sass/utilities/functions";
 
-$pink: #39517a;
+$pink: #2c3d5f;
 $pink-invert: #fff;
 
 $primary: $pink;
@@ -19,5 +19,7 @@ $addColors: (
         "github": ($github, $github-invert)
 );
 $colors: map-merge($colors, $addColors);
+//$background: $dark;
+//$text: $text-invert;
 
 @import "~bulma/bulma";

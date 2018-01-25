@@ -1,18 +1,20 @@
 <template>
-    <div>
-        <div class="title is-4 match-iframe"><span class="icon"><i class=" fa fa-envelope-o"></i></span> Inquiries</div>
-        <div class="subtitle match-iframe">Please fill out the form to contact me.</div>
-        <div class="crop-iframe">
-            <div class="is-hidden-tablet mobile-spacer"></div>
-            <iframe height="1500"
-                    width="100%"
-                    id="JotFormIFrame-80221477580253"
-                    allowtransparency="true"
-                    src="https://form.jotform.com/80221477580253"
-                    frameborder="0"
-                    scrolling="no">
-            </iframe>
-        </div>
+    <div class="container">
+        <section class="section">
+            <div class="title is-4 match-iframe"><span class="icon"><i class=" fa fa-envelope-o"></i></span> Inquiries</div>
+            <div class="subtitle match-iframe">Please fill out the form to contact me.</div>
+            <div class="crop-iframe">
+                <div class="is-hidden-tablet mobile-spacer"></div>
+                <iframe height="1500"
+                        width="100%"
+                        id="JotFormIFrame-80221477580253"
+                        allowtransparency="true"
+                        src="https://form.jotform.com/80221477580253"
+                        frameborder="0"
+                        scrolling="no">
+                </iframe>
+            </div>
+        </section>
     </div>
 </template>
 

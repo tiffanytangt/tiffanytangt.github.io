@@ -1,11 +1,7 @@
 <template>
     <div>
         <top-nav></top-nav>
-            <div class="container">
-                <div  class="section">
-                    <router-view></router-view>
-                </div>
-            </div>
+        <router-view></router-view>
         <foot></foot>
     </div>
 </template>
@@ -28,5 +24,10 @@
 
 <style lang="scss">
     @import "main";
+
+    body {
+        //background: $black-ter;
+        min-height: 100vh;
+    }
 
 </style>
