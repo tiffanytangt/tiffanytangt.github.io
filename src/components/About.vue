@@ -14,7 +14,7 @@
 
                 <p>In my time as a professional developer, I've had the opportunity to create rich interfaces with the latest technologies, build data-driven applications at scale, and explore (and re-explore) today's best practises, patterns and methodologies for developing software-- frequently traversing departmental borders to pursue a clearer picture of organizational goals and how my craft can produce value.</p>
 
-                <p>What I find most rewarding in my profession is the ability to affect change and help others, whether that translates to assisting a fellow code-slinger with a tricky problem, sharing my experience with students and graduates to help them learn to navigate the industry, providing robust solutions to increase the bottom line, or wielding a mouse and keyboard to provide someone (or a lot of someones!) with solutions to make their life <em>just a little bit easier.</em></p>
+                <p>What I find most rewarding in my profession is the ability to effect change and help others, whether that translates to assisting a fellow code-slinger with a tricky problem, sharing my experience with students and graduates to help them learn to navigate the industry, providing robust solutions to increase the bottom line, or wielding a mouse and keyboard to provide someone (or a lot of someones!) with solutions to make their life <em>just a little bit easier.</em></p>
 
                 <p>If you'd like to chat about an idea, a project, or simply ask me a question, please feel free to <router-link to="/contact">contact me</router-link>.</p>
             </div>

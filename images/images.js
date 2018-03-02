@@ -13,6 +13,8 @@ import jest from './jest.svg';
 import phpunit from './phpunit.png';
 import compose from './dockercompose.png';
 import node from './node.svg'
+import sailsjs from './sailsjs.png'
+import angularjs from './angularjs.svg'
 
 const config =[
   {
@@ -43,7 +45,7 @@ const config =[
   {
     label: 'zend',
     path: zend,
-    tags: ['back-end', 'php']
+    tags: ['back-end', 'php', 'mvc']
   },
   {
     label: 'vue',
@@ -63,12 +65,12 @@ const config =[
   {
     label: 'slim',
     path: slim,
-    tags: ['php', 'back-end']
+    tags: ['php', 'back-end', 'mvc']
   },
   {
     label: 'npm',
     path: npm,
-    tags: ['tools', 'back-end', 'javascript']
+    tags: ['tools', 'javascript']
   },
   {
     label: 'jest',
@@ -89,6 +91,16 @@ const config =[
     label: 'node',
     path: node,
     tags: ['javascript', 'back-end']
+  },
+  {
+    label: 'sailsjs',
+    path: sailsjs,
+    tags: ['javascript', 'back-end', 'mvc']
+  },
+  {
+    label: 'angularjs',
+    path: angularjs,
+    tags: ['javascript', 'front-end']
   }
 ];
 

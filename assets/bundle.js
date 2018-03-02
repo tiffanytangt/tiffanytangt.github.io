@@ -33239,7 +33239,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("p", [
       _vm._v(
-        "What I find most rewarding in my profession is the ability to affect change and help others, whether that translates to assisting a fellow code-slinger with a tricky problem, sharing my experience with students and graduates to help them learn to navigate the industry, providing robust solutions to increase the bottom line, or wielding a mouse and keyboard to provide someone (or a lot of someones!) with solutions to make their life "
+        "What I find most rewarding in my profession is the ability to effect change and help others, whether that translates to assisting a fellow code-slinger with a tricky problem, sharing my experience with students and graduates to help them learn to navigate the industry, providing robust solutions to increase the bottom line, or wielding a mouse and keyboard to provide someone (or a lot of someones!) with solutions to make their life "
       ),
       _c("em", [_vm._v("just a little bit easier.")])
     ])
@@ -33296,6 +33296,12 @@ module.exports = __webpack_require__.p + "node.svg?94cafb0d1b4a2875215db17964f09
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__dockercompose_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__dockercompose_png__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__node_svg__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__node_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14__node_svg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__sailsjs_png__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__sailsjs_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15__sailsjs_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__angularjs_svg__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__angularjs_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16__angularjs_svg__);
+
+
 
 
 
@@ -33335,7 +33341,7 @@ const config = [{
 }, {
   label: 'zend',
   path: __WEBPACK_IMPORTED_MODULE_8__zend_png___default.a,
-  tags: ['back-end', 'php']
+  tags: ['back-end', 'php', 'mvc']
 }, {
   label: 'vue',
   path: __WEBPACK_IMPORTED_MODULE_6__vue_png___default.a,
@@ -33351,11 +33357,11 @@ const config = [{
 }, {
   label: 'slim',
   path: __WEBPACK_IMPORTED_MODULE_9__slim_png___default.a,
-  tags: ['php', 'back-end']
+  tags: ['php', 'back-end', 'mvc']
 }, {
   label: 'npm',
   path: __WEBPACK_IMPORTED_MODULE_10__npm_png___default.a,
-  tags: ['tools', 'back-end', 'javascript']
+  tags: ['tools', 'javascript']
 }, {
   label: 'jest',
   path: __WEBPACK_IMPORTED_MODULE_11__jest_svg___default.a,
@@ -33372,9 +33378,30 @@ const config = [{
   label: 'node',
   path: __WEBPACK_IMPORTED_MODULE_14__node_svg___default.a,
   tags: ['javascript', 'back-end']
+}, {
+  label: 'sailsjs',
+  path: __WEBPACK_IMPORTED_MODULE_15__sailsjs_png___default.a,
+  tags: ['javascript', 'back-end', 'mvc']
+}, {
+  label: 'angularjs',
+  path: __WEBPACK_IMPORTED_MODULE_16__angularjs_svg___default.a,
+  tags: ['javascript', 'front-end']
 }];
 
 /* harmony default export */ __webpack_exports__["a"] = (config);
+
+/***/ }),
+/* 65 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "sailsjs.png?8b0af585895c48dee8765a2d8529abf2";
+
+/***/ }),
+/* 66 */,
+/* 67 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "angularjs.svg?4c732369e54ee14c3d884b15b441ad0f";
 
 /***/ })
 /******/ ]);
