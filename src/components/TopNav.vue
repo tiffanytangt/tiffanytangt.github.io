@@ -4,13 +4,12 @@
             <router-link to="/">
                 <span class="is-size-3 button is-primary has-text-weight-light">tiffanytang $ ></span>
             </router-link>
-            <!-- navbar items, navbar burger... -->
         </div>
 
         <div class="navbar-menu">
             <div class="navbar-start">
-                <!--<router-link to="/about" class="navbar-item">About</router-link>-->
-                <router-link to="/projects" class="navbar-item">Projects</router-link>
+                <router-link to="/about" class="navbar-item">About</router-link>
+                <!--<router-link to="/projects" class="navbar-item">Projects</router-link>-->
                 <router-link to="/tech" class="navbar-item">Experience</router-link>
             </div>
             <div class="navbar-end">

@@ -48,6 +48,7 @@
     import jest from '../../images/jest.svg';
     import phpunit from '../../images/phpunit.png';
     import compose from '../../images/dockercompose.png';
+    import node from '../../images/node.svg'
 
     export default {
         data() {
@@ -123,6 +124,11 @@
                         label: 'compose',
                         path: compose,
                         tags: ['tools']
+                    },
+                    {
+                        label: 'node',
+                        path: node,
+                        tags: ['javascript', 'back-end']
                     }
                 ]
             }
