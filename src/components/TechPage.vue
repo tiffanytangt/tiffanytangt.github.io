@@ -34,103 +34,13 @@
 
 <script>
     import 'lodash';
-    import react from '../../images/react.png';
-    import webpack from '../../images/webpack.png';
-    import jenkins from '../../images/jenkins-headshot.png';
-    import redux from '../../images/redux.png';
-    import bootstrap from '../../images/bootstrap.png';
-    import sass from '../../images/sass-seal.png';
-    import vue from '../../images/vue.png';
-    import docker from '../../images/docker.png';
-    import zend from '../../images/zend.png';
-    import slim from '../../images/slim.png';
-    import npm from '../../images/npm.png';
-    import jest from '../../images/jest.svg';
-    import phpunit from '../../images/phpunit.png';
-    import compose from '../../images/dockercompose.png';
-    import node from '../../images/node.svg'
+    import logos from '../../images/images'
 
     export default {
         data() {
             return {
                 selectedTags: [],
-                logos:[
-                    {
-                        label: 'react',
-                        path: react,
-                        tags: ['front-end', 'javascript']
-                    },
-                    {
-                        label: 'redux',
-                        path: redux,
-                        tags: ['front-end', 'javascript']
-                    },
-                    {
-                        label: 'webpack',
-                        path: webpack,
-                        tags: ['tools', 'javascript']
-                    },
-                    {
-                        label: 'jenkins',
-                        path: jenkins,
-                        tags: ['tools']
-                    },
-                    {
-                        label: 'bootstrap',
-                        path: bootstrap,
-                        tags: ['front-end', 'css']
-                    },
-                    {
-                        label: 'zend',
-                        path: zend,
-                        tags: ['back-end', 'php']
-                    },
-                    {
-                        label: 'vue',
-                        path: vue,
-                        tags: ['front-end', 'javascript']
-                    },
-                    {
-                        label: 'sass',
-                        path: sass,
-                        tags: ['front-end', 'css']
-                    },
-                    {
-                        label: 'docker',
-                        path: docker,
-                        tags: ['tools']
-                    },
-                    {
-                        label: 'slim',
-                        path: slim,
-                        tags: ['php', 'back-end']
-                    },
-                    {
-                        label: 'npm',
-                        path: npm,
-                        tags: ['tools', 'back-end', 'javascript']
-                    },
-                    {
-                        label: 'jest',
-                        path: jest,
-                        tags: ['tools', 'testing', 'javascript']
-                    },
-                    {
-                        label: 'phpunit',
-                        path: phpunit,
-                        tags: ['tools', 'testing', 'php']
-                    },
-                    {
-                        label: 'compose',
-                        path: compose,
-                        tags: ['tools']
-                    },
-                    {
-                        label: 'node',
-                        path: node,
-                        tags: ['javascript', 'back-end']
-                    }
-                ]
+                logos: logos
             }
         },
         computed: {
@@ -148,10 +58,6 @@
                 }
                 return this.logos;
             }
-
-
-        },
-        components: {
         },
         methods: {
             getLogo: filename => `assets/${filename}`,
@@ -159,14 +65,10 @@
                 let idx = this.selectedTags.indexOf(tag);
                 if (idx >= 0) {
                     this.selectedTags.splice(idx,1);
-
                 } else {
                     this.selectedTags.push(tag);
                 }
             }
-        },
-
-        mounted() {
         }
     }
 </script>

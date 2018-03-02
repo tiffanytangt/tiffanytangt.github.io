@@ -821,36 +821,7 @@ process.umask = function() { return 0; };
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__images_react_png__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__images_react_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__images_react_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__images_webpack_png__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__images_webpack_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__images_webpack_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__images_jenkins_headshot_png__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__images_jenkins_headshot_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__images_jenkins_headshot_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__images_redux_png__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__images_redux_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__images_redux_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__images_bootstrap_png__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__images_bootstrap_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__images_bootstrap_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__images_sass_seal_png__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__images_sass_seal_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__images_sass_seal_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__images_vue_png__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__images_vue_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__images_vue_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__images_docker_png__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__images_docker_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__images_docker_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__images_zend_png__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__images_zend_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__images_zend_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__images_slim_png__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__images_slim_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__images_slim_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__images_npm_png__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__images_npm_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__images_npm_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__images_jest_svg__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__images_jest_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__images_jest_svg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__images_phpunit_png__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__images_phpunit_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__images_phpunit_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__images_dockercompose_png__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__images_dockercompose_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14__images_dockercompose_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__images_node_svg__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__images_node_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15__images_node_svg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__images_images__ = __webpack_require__(64);
 //
 //
 //
@@ -885,20 +856,6 @@ process.umask = function() { return 0; };
 //
 //
 //
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -907,67 +864,7 @@ process.umask = function() { return 0; };
     data() {
         return {
             selectedTags: [],
-            logos: [{
-                label: 'react',
-                path: __WEBPACK_IMPORTED_MODULE_1__images_react_png___default.a,
-                tags: ['front-end', 'javascript']
-            }, {
-                label: 'redux',
-                path: __WEBPACK_IMPORTED_MODULE_4__images_redux_png___default.a,
-                tags: ['front-end', 'javascript']
-            }, {
-                label: 'webpack',
-                path: __WEBPACK_IMPORTED_MODULE_2__images_webpack_png___default.a,
-                tags: ['tools', 'javascript']
-            }, {
-                label: 'jenkins',
-                path: __WEBPACK_IMPORTED_MODULE_3__images_jenkins_headshot_png___default.a,
-                tags: ['tools']
-            }, {
-                label: 'bootstrap',
-                path: __WEBPACK_IMPORTED_MODULE_5__images_bootstrap_png___default.a,
-                tags: ['front-end', 'css']
-            }, {
-                label: 'zend',
-                path: __WEBPACK_IMPORTED_MODULE_9__images_zend_png___default.a,
-                tags: ['back-end', 'php']
-            }, {
-                label: 'vue',
-                path: __WEBPACK_IMPORTED_MODULE_7__images_vue_png___default.a,
-                tags: ['front-end', 'javascript']
-            }, {
-                label: 'sass',
-                path: __WEBPACK_IMPORTED_MODULE_6__images_sass_seal_png___default.a,
-                tags: ['front-end', 'css']
-            }, {
-                label: 'docker',
-                path: __WEBPACK_IMPORTED_MODULE_8__images_docker_png___default.a,
-                tags: ['tools']
-            }, {
-                label: 'slim',
-                path: __WEBPACK_IMPORTED_MODULE_10__images_slim_png___default.a,
-                tags: ['php', 'back-end']
-            }, {
-                label: 'npm',
-                path: __WEBPACK_IMPORTED_MODULE_11__images_npm_png___default.a,
-                tags: ['tools', 'back-end', 'javascript']
-            }, {
-                label: 'jest',
-                path: __WEBPACK_IMPORTED_MODULE_12__images_jest_svg___default.a,
-                tags: ['tools', 'testing', 'javascript']
-            }, {
-                label: 'phpunit',
-                path: __WEBPACK_IMPORTED_MODULE_13__images_phpunit_png___default.a,
-                tags: ['tools', 'testing', 'php']
-            }, {
-                label: 'compose',
-                path: __WEBPACK_IMPORTED_MODULE_14__images_dockercompose_png___default.a,
-                tags: ['tools']
-            }, {
-                label: 'node',
-                path: __WEBPACK_IMPORTED_MODULE_15__images_node_svg___default.a,
-                tags: ['javascript', 'back-end']
-            }]
+            logos: __WEBPACK_IMPORTED_MODULE_1__images_images__["a" /* default */]
         };
     },
     computed: {
@@ -985,9 +882,7 @@ process.umask = function() { return 0; };
             }
             return this.logos;
         }
-
     },
-    components: {},
     methods: {
         getLogo: filename => `assets/${filename}`,
         toggleTag: function (tag) {
@@ -998,9 +893,7 @@ process.umask = function() { return 0; };
                 this.selectedTags.push(tag);
             }
         }
-    },
-
-    mounted() {}
+    }
 });
 
 /***/ }),
@@ -33367,6 +33260,121 @@ if (false) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "node.svg?94cafb0d1b4a2875215db17964f0938a";
+
+/***/ }),
+/* 64 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__react_png__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__react_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__react_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__webpack_png__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__webpack_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__webpack_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__jenkins_headshot_png__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__jenkins_headshot_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__jenkins_headshot_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__redux_png__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__redux_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__redux_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__bootstrap_png__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__bootstrap_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__bootstrap_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__sass_seal_png__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__sass_seal_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__sass_seal_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__vue_png__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__vue_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__vue_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__docker_png__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__docker_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__docker_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__zend_png__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__zend_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__zend_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__slim_png__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__slim_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__slim_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__npm_png__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__npm_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__npm_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__jest_svg__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__jest_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__jest_svg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__phpunit_png__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__phpunit_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__phpunit_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__dockercompose_png__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__dockercompose_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__dockercompose_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__node_svg__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__node_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14__node_svg__);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const config = [{
+  label: 'react',
+  path: __WEBPACK_IMPORTED_MODULE_0__react_png___default.a,
+  tags: ['front-end', 'javascript']
+}, {
+  label: 'redux',
+  path: __WEBPACK_IMPORTED_MODULE_3__redux_png___default.a,
+  tags: ['front-end', 'javascript']
+}, {
+  label: 'webpack',
+  path: __WEBPACK_IMPORTED_MODULE_1__webpack_png___default.a,
+  tags: ['tools', 'javascript']
+}, {
+  label: 'jenkins',
+  path: __WEBPACK_IMPORTED_MODULE_2__jenkins_headshot_png___default.a,
+  tags: ['tools']
+}, {
+  label: 'bootstrap',
+  path: __WEBPACK_IMPORTED_MODULE_4__bootstrap_png___default.a,
+  tags: ['front-end', 'css']
+}, {
+  label: 'zend',
+  path: __WEBPACK_IMPORTED_MODULE_8__zend_png___default.a,
+  tags: ['back-end', 'php']
+}, {
+  label: 'vue',
+  path: __WEBPACK_IMPORTED_MODULE_6__vue_png___default.a,
+  tags: ['front-end', 'javascript']
+}, {
+  label: 'sass',
+  path: __WEBPACK_IMPORTED_MODULE_5__sass_seal_png___default.a,
+  tags: ['front-end', 'css']
+}, {
+  label: 'docker',
+  path: __WEBPACK_IMPORTED_MODULE_7__docker_png___default.a,
+  tags: ['tools']
+}, {
+  label: 'slim',
+  path: __WEBPACK_IMPORTED_MODULE_9__slim_png___default.a,
+  tags: ['php', 'back-end']
+}, {
+  label: 'npm',
+  path: __WEBPACK_IMPORTED_MODULE_10__npm_png___default.a,
+  tags: ['tools', 'back-end', 'javascript']
+}, {
+  label: 'jest',
+  path: __WEBPACK_IMPORTED_MODULE_11__jest_svg___default.a,
+  tags: ['tools', 'testing', 'javascript']
+}, {
+  label: 'phpunit',
+  path: __WEBPACK_IMPORTED_MODULE_12__phpunit_png___default.a,
+  tags: ['tools', 'testing', 'php']
+}, {
+  label: 'compose',
+  path: __WEBPACK_IMPORTED_MODULE_13__dockercompose_png___default.a,
+  tags: ['tools']
+}, {
+  label: 'node',
+  path: __WEBPACK_IMPORTED_MODULE_14__node_svg___default.a,
+  tags: ['javascript', 'back-end']
+}];
+
+/* harmony default export */ __webpack_exports__["a"] = (config);
 
 /***/ })
 /******/ ]);
