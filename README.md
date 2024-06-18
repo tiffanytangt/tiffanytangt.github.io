@@ -1,1 +1,1 @@
-Personal dev playground/website @ tiffanytang.tech
+Personal dev playground/website @ [tiffanytang.tech](https://tiffanytang.tech)
